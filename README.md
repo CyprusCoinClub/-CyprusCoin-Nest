@@ -52,8 +52,6 @@ If you are on Windows or Linux, move your wallets (.wallet) and settings.db file
 
 ![Main Screen](/Screenshots/MainScreen.png)
 
-![Open Wallet](/Screenshots/OpenWallet.png)
-
 ## Donations
 
 TRTLv3jzutiQwqHL3qFwsu5EVLWesxZr1AFQ4AuMR3SD56n3rkHDkwj79eKwvaiU1nYQWGydKoXM6fXyiiGKsPDnVCNXzNdusxx
