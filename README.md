@@ -54,7 +54,7 @@ If you are on Windows or Linux, move your wallets (.wallet) and settings.db file
 
 ## Donations
 
-TRTLv3jzutiQwqHL3qFwsu5EVLWesxZr1AFQ4AuMR3SD56n3rkHDkwj79eKwvaiU1nYQWGydKoXM6fXyiiGKsPDnVCNXzNdusxx
+XCY1etcQz6wTFQDH88C6CXdzxVmndBm6VBUzzwhape9M8WncEAeL4tfZHU9rvjPRV7be4DKTqJQ12eUB5kQ9TBJG8eY6DwapCX
 
 ## Build - (for developers only)
 
