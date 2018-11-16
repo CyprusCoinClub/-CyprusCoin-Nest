@@ -1,4 +1,6 @@
 // Copyright (c) 2018, The TurtleCoin Developers
+// Copyright (c) 2018, The Calex Developers
+// Copyright (c) 2018, The CyprusCoin Developers
 //
 // Please see the included LICENSE file for more information.
 //
@@ -14,7 +16,7 @@ type release struct {
 	URL     string `json:"html_url"`
 }
 
-const url = "https://api.github.com/repos/turtlecoin/turtle-wallet-go/releases/latest"
+const url = "https://api.github.com/repos/calexcore/cyprusnest/releases/latest"
 
 func checkIfNewReleaseAvailableOnGithub(currentVersion string) (newVersion string, urlNewVersion string) {
 

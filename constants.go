@@ -1,4 +1,6 @@
 // Copyright (c) 2018, The TurtleCoin Developers
+// Copyright (c) 2018, The Calex Developers
+// Copyright (c) 2018, The CyprusCoin Developers
 //
 // Please see the included LICENSE file for more information.
 //
@@ -6,16 +8,16 @@
 package main
 
 const (
-	versionNest                 = "0.36"
-	urlCryptoCompareTRTL        = "https://min-api.cryptocompare.com/data/price?fsym=TRTL&tsyms=USD"
-	logFileFilename             = "TurtleCoin-Nest.log"
-	urlBlockExplorer            = "https://blocks.turtle.link/"
+	versionNest                 = "0.01"
+	urlCryptoCompareXCY       = "https://min-api.cryptocompare.com/data/price?fsym=TRTL&tsyms=USD"
+	logFileFilename             = "CyprusCoin-Nest.log"
+	urlBlockExplorer            = "http://explorer.mycypruscoin.com/"
 	dbFilename                  = "settings.db"
-	numberTransactionsToDisplay = 20
+	numberTransactionsToDisplay = 25
 
 	// default remote node
-	defaultRemoteDaemonAddress = "public.turtlenode.io"
-	defaultRemoteDaemonPort    = "11898"
-	defaultRemoteDaemonName    = "public.turtlenode.io"
+	defaultRemoteDaemonAddress = "public.nodes.mycypruscoin.com"
+	defaultRemoteDaemonPort    = "11975"
+	defaultRemoteDaemonName    = "CyprusCoin"
 	defaultRemoteDaemonSSL     = false
 )

@@ -1,4 +1,6 @@
 // Copyright (c) 2018, The TurtleCoin Developers
+// Copyright (c) 2018, The Calex Developers
+// Copyright (c) 2018, The CyprusCoin Developers
 //
 // Please see the included LICENSE file for more information.
 //
@@ -6,7 +8,7 @@
 package main
 
 import (
-	"TurtleCoin-Nest/walletdmanager"
+	"CyprusCoin-Nest/walletdmanager"
 
 	"github.com/atotto/clipboard"
 	_ "github.com/mattn/go-sqlite3"
@@ -179,7 +181,7 @@ func connectQMLToGOFunctions() {
 	})
 
 	qmlBridge.ConnectGetTransferAmountUSD(func(amountTRTL string) string {
-		return amountStringUSDToTRTL(amountTRTL)
+		return amountStringUSDToXCY(amountTRTL)
 	})
 
 	qmlBridge.ConnectClickedButtonBackupWallet(func() {
